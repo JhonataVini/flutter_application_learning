@@ -1,17 +1,62 @@
-# flutter_application_learning
+💰 Expense Tracker App (Flutter)
 
-A new Flutter project.
+A simple and modern Expense Tracker mobile application built with Flutter.
+This app helps users track their daily expenses, categorize spending, and view total costs in an easy and clean interface.
 
-## Getting Started
+🚀 Features
+➕ Add new expenses
+✏️ Edit existing expenses
+🗑 Delete expenses
+📊 View total spending
+🏷 Categorize expenses (Food, Transport, Bills, etc.)
+📅 Add date to each expense
+💾 Local storage (SQLite-ready structure)
+📱 Clean and responsive UI
+🛠 Tech Stack
+Flutter
+Dart
+Provider (State Management)
+SQLite (local database structure)
+Material Design
 
-This project is a starting point for a Flutter application.
+📂 Project Structure
+lib/
+│
+├── main.dart
+├── models/
+│   └── expense.dart
+├── providers/
+│   └── expense_provider.dart
+├── screens/
+│   ├── home_screen.dart
+│   └── add_expense_screen.dart
+│   └── edit_expense_screen.dart
+└── services/
+    └── database_service.dart
 
-A few resources to get you started if this is your first Flutter project:
+    ⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/JhonataVini/flutter_application_learning.git
+cd expense-tracker
+2. Install dependencies
+flutter pub get
+3. Run the app
+flutter run
+📦 Build APK
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+To generate a release APK:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter build apk --release
+
+APK will be located at:
+
+build/app/outputs/flutter-apk/app-release.apk
+🎯 Future Improvements
+🔐 User authentication
+☁️ Cloud sync (Firebase)
+📈 Charts & analytics dashboard
+💸 Budget limits & alerts
+🔍 Search & filtering
+🌙 Dark mode
+👨‍💻 Author
+Your Name: Jhonata Vinícius Almeida Lopes
