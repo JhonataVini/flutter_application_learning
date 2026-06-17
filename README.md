@@ -1,17 +1,18 @@
 💰 Expense Tracker App (Flutter)
 
 A simple and modern Expense Tracker mobile application built with Flutter.
-This app helps users track their daily expenses, categorize spending, and view total costs in an easy and clean interface.
+This app helps users track their daily expenses, categorise spending, and view total costs through an easy, clean interface.
 
 🚀 Features
 ➕ Add new expenses
 ✏️ Edit existing expenses
 🗑 Delete expenses
 📊 View total spending
-🏷 Categorize expenses (Food, Transport, Bills, etc.)
+🏷 Categorise expenses (Food, Transport, Bills, etc.)
 📅 Add date to each expense
 💾 Local storage (SQLite-ready structure)
 📱 Clean and responsive UI
+
 🛠 Tech Stack
 Flutter
 Dart
@@ -20,6 +21,7 @@ SQLite (local database structure)
 Material Design
 
 📂 Project Structure
+
 lib/
 │
 ├── main.dart
@@ -36,11 +38,14 @@ lib/
 
     ⚙️ Getting Started
 1. Clone the repository
+   
 git clone https://github.com/JhonataVini/flutter_application_learning.git
+
 cd expense-tracker
-2. Install dependencies
+
+3. Install dependencies
 flutter pub get
-3. Run the app
+4. Run the app
 flutter run
 📦 Build APK
 
@@ -58,5 +63,6 @@ build/app/outputs/flutter-apk/app-release.apk
 💸 Budget limits & alerts
 🔍 Search & filtering
 🌙 Dark mode
+
 👨‍💻 Author
-Your Name: Jhonata Vinícius Almeida Lopes
+Jhonata Vinícius Almeida Lopes
