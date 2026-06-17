@@ -62,4 +62,4 @@ build/app/outputs/flutter-apk/app-release.apk
 🔍 Search & filtering
 🌙 Dark mode
 👨‍💻 Author
-Your Name: Jhonata Vinícius Almeida Lopes
+Jhonata Vinícius Almeida Lopes
