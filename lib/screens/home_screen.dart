@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
   children: [
 
     Card(
-      margin: const EdgeInsets.all(12),
+      margin: const EdgeInsets.all(16),
       child: ListTile(
         title: const Text(
           "Total Expenses",

@@ -23,6 +23,7 @@ final categories = [
 ];
 DateTime selectedDate = DateTime.now();
 
+
 class _AddExpenseScreenState
     extends State<AddExpenseScreen> {
 
@@ -41,7 +42,7 @@ class _AddExpenseScreenState
       ),
 
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(8),
 
         child: Column(
           children: [
@@ -50,7 +51,7 @@ class _AddExpenseScreenState
               controller: titleController,
               decoration: const InputDecoration(
                 labelText: "Expense Name",
-              ),
+              )
             ),
 
             TextField(
@@ -77,7 +78,6 @@ class _AddExpenseScreenState
             ),
             ElevatedButton(
               onPressed: () async {
-
                 final picked =
                     await showDatePicker(
                   context: context,
@@ -111,7 +111,20 @@ class _AddExpenseScreenState
                 category: selectedCategory,
                  date: selectedDate,
                 );
-                
+
+                if(expense.title == " "|| 
+                    expense.title.isEmpty || 
+                    expense.amount <= 0 || 
+                    expense.amount.isNaN) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text("Please enter valid title and amount"),
+                      backgroundColor: Colors.red,
+                    ),
+                  );
+                  return;
+                }
+
                 context
                     .read<ExpenseProvider>()
                     .addExpense(expense);
