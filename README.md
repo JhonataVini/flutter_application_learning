@@ -56,13 +56,14 @@ flutter build apk --release
 APK will be located at:
 
 build/app/outputs/flutter-apk/app-release.apk
+
 🎯 Future Improvements
-🔐 User authentication
-☁️ Cloud sync (Firebase)
-📈 Charts & analytics dashboard
-💸 Budget limits & alerts
-🔍 Search & filtering
-🌙 Dark mode
+🔐 User authentication ❌
+☁️ Cloud sync (Firebase) ❌
+📈 Charts & analytics dashboard ❌
+💸 Budget limits & alerts ❌
+🔍 Search & filtering (In progress 🔄)
+🌙 Dark mode ❌
 
 👨‍💻 Author
 Jhonata Vinícius Almeida Lopes
